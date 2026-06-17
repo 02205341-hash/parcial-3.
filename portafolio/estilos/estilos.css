@@ -1,0 +1,111 @@
+body{
+    background: pink;
+    margin: 0;
+    padding: 0;
+    font-family: comic sans ms;
+    background-color: #d0f4de;
+ justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     flex-direction: column;
+  }
+
+
+
+.contenedor{
+  width:100%;
+    margin: 100px auto;
+    color: #f15bb5;
+      background-color:#a0c4ff;
+
+    box-sizing: border-box;
+    box-sizing: border-box;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center    flex-direction: center;
+
+}
+
+contenedor rs{
+    font-size: 28px;
+    color:#544B80 ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+   
+
+
+main{
+    width: 80%;
+    background: white;
+    padding: 20px;
+}
+
+main .perfil{
+    width: 150px;
+    height: 150px;
+    background: gray;
+    border-radius: 50%; 
+    margin: 0 auto;
+    border: 5px solid white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    object-fit:cover;
+    color: #fcf6bd;
+    
+
+    
+}
+
+img{
+    width: 20%;
+    height: 100%;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-color: skyblue;
+    background:whitesmoke;
+    padding: 8px 5px 5px;
+}
+
+
+
+
+
+div .texto{
+    text-align: center;
+    font-size: bold;
+    color:#ff99c8;
+}
+
+.boton-practica{
+
+    display: inline-block;
+    background-color:#a9def9;
+    color:#ff99c8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    transition: background 0.3s;
+    min-width: 50px;
+}
+.titulo{
+    text-align: center;
+    font-size: bold;
+    color:#e4c1f9 ;
+}
+
+
+
+
+
+.botones{
+    
+    padding: 20px;
+    text-align: center;
+}
+

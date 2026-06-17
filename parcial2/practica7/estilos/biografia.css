@@ -1,0 +1,68 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+ body{
+ 	background: hotblue;
+ 	font-family:" reboto condensed",sans-serif;
+ }
+
+ header{
+ 	width: 100%;
+ 	height: 300px;
+ 	background: url("../img/portada.jpg") skyblue;
+ 	background-size: cover;
+
+}
+
+main{
+	width: 100%;
+	background: ghostwhite;
+	padding: 20px;
+}
+
+main .perfil{
+width:125px ;
+height:150px ;
+background:white ;
+border-radius: 100px;
+margin-top: -100px;
+border: 5px white;
+margin-bottom:20px ;
+}
+
+.perfil img{
+	width: 100%;
+	border-radius: 100%;
+}
+
+main .texto p{
+	margin: 20px 0;
+	text-align: justify;
+}
+
+footer{
+	background:#CD5C5C ;
+	color:#FDBCB4 ;
+	text-align:center ;
+	padding:35px ;
+}
+
+footer a{
+	font-size: 20px;
+	color: #FB607F;
+	display:inline-block ;
+	margin:10px 15px ;
+}
+
+footer a{
+	color: white;
+	transition: 0.5s;
+}
+
+.contenedor{
+	width: 70%;
+	margin: 0 auto;
+}

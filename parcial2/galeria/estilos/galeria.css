@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #0077b6;
+	color: white;
+}
+header{
+	text-align: center;
+	padding: 20px;
+	border-bottom: 5px solid white;
+}
+
+main .galeria{
+	width: 60%;
+	background: #48cae4;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.galeria .foto{
+	width: 250px;
+	height: 250px;
+	background: white;
+	margin: 15px 10px;
+}
+/*aqui acomodaremos las fotos para que entren en su caja*/
+
+ main .foto img{
+	width: 100%;
+	filter: grayscale(90%);
+	border: 1px solid white;
+}
+
+main .foto img:hover{
+	filter: grayscale(0%);
+	transition: 0.5s;
+	border: 5px solid #16db93;
+}
+
+footer .presentacion{
+	width: 85%;
+	margin: 0 auto;
+}
+
+footer .foto {
+	width: 150px;
+	height: 150px;
+	background:whitesmoke ;
+	border-radius: 100%;
+
+
+}
+
+footer .foto img{
+	width: 100%;
+	border-radius: 100%;
+
+}
+
+footer .texto{
+	width: 70%;
+}
+
+footer .presentacion{
+	display: flez;
+	justify-content: center;
+	align-items: center;
+}
